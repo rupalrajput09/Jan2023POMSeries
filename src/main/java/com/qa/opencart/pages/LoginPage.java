@@ -31,6 +31,7 @@ public class LoginPage {
 	private By footerLinks = By.xpath("//footer//a");
 	private By loginErrorMessg = By.cssSelector("div.alert.alert-danger.alert-dismissible");
 	private By registerLink = By.linkText("Register");
+	private By testingPurpose = By.id("Testing Purpose in git hub");
 
 	
 	// 3. public page actions/ methods : (what exactly you want to do)
