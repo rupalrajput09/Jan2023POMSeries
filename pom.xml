@@ -11,7 +11,7 @@
 
 	<name>Jan2023POMSeries</name>
 	<!-- FIXME change it to the project's website -->
-	<url>http://www.opencart.com</url>
+	<url>https://naveenautomationlabs.com/opencart/index.php?route=account/login</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
