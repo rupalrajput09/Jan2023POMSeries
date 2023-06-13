@@ -26,6 +26,11 @@ public class OptionsManager {
 			co.addArguments("--incognito");
 		}
 		
+		if (Boolean.parseBoolean(prop.getProperty("remote"))) {
+			co.setCapability("browserName", "chrome");
+		}
+		
+		
 //		co.addArguments("--window-size=1920,1080");
 //		co.addArguments("--no-sandbox");
 //		co.addArguments("--disable-gpu");
