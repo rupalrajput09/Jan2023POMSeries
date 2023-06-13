@@ -11,8 +11,7 @@
 
 	<name>Jan2023POMSeries</name>
 	<!-- FIXME change it to the project's website -->
-	<url>https://naveenautomationlabs.com/opencart/index.php?route=account/login</url>
-
+	<url>http://www.example.com</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -99,9 +98,9 @@
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
-					<!--<suiteXmlFile>
+						<!--<suiteXmlFile>
 							src/main/resources/testrunners/testng_regression.xml</suiteXmlFile>-->
-					<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 
 					<argLine>
